@@ -40,12 +40,12 @@ h1, h2, h3, h4, h5, h6{
 a:link{
     color: #161616;
     text-decoration: none;
-    text-decoration: initial;
+}
+a:visited{
+    font-style: initial;
 }
 a:hover{
-    color: #161616;
-    text-decoration: none;
-    display: var(--color-light-grey);
+    text-decoration: underline;
 }
 .visually-hidden{
     display: none;
