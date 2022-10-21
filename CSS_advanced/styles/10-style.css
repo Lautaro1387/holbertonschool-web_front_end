@@ -18,7 +18,6 @@
     --line-height-base: 1.5;
     --line-height-big: 1.8;
     --section-header-align: center;
-    --section-header: var(--section-header-align);
 }
 html{
     scroll-behavior: smooth;
@@ -47,4 +46,7 @@ a{
 }
 .section-tagline{
     color: var(--color-primary);
+}
+.section-tagline{
+    text-align: var(--section-header-align);
 }
