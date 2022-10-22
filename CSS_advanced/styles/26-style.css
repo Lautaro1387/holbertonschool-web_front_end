@@ -260,3 +260,15 @@ ul.row {
 .card-testiomonial {
      text-align: center;
 }
+
+.card-testiomonial .card-avatar {
+     border-radius: 50%;
+     width: 10rem;
+     height: 10rem;
+}
+
+.card-testiomonial .card-quote {
+     display: block;
+     padding-top: 1rem;
+     color: var(--color-primary);
+}
