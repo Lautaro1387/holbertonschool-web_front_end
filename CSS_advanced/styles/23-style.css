@@ -204,11 +204,11 @@ ul.row {
 }
 
 .social-link {
-     text-align: block;
+     display: block;
 }
 
-.social-link:svg {
-     color: var(--text-color);
+.social-link > svg {
+     fill: var(--text-color);
 }
 [data-section-theme="dark"] {
      --text-color: var(--color-white);
