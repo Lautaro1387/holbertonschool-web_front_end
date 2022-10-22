@@ -171,9 +171,9 @@ ul.row {
 }
 
 .row::after {
-     display: inline-block;
+     content: "";
      display: table;
-     float: left right none;
+     clear: both;
 }
 
 .footer ul {
