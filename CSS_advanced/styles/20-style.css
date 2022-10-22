@@ -170,7 +170,7 @@ ul.row {
      list-style: none;
 }
 
-.row {
+.row::after {
      columns: 0;
      display: table;
      float: none;
