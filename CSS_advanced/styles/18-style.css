@@ -145,7 +145,7 @@ a:active {
      text-align: center;
 }
 
-.nav-item {
+.nav .nav-item {
      font-family: var(--nav-item-font-family);
      font-weight: var(--nav-item-font-weight);
      size: var(--nav-item-font-size);
@@ -156,10 +156,7 @@ a:active {
 
 .nav .nav-link {
      display: block;
-     padding-top: 50%;
-     padding-bottom: 50%;
-     padding-left: 50%;
-     padding-right: 50%;
+     padding: 50% 50% 50% 50%
 }
 .nav .nav-link:hover {
      color: var(--nav-item-link-hover);
