@@ -1,1 +1,1 @@
-# holbertonschool-web_front_end
+# V1 - Fix, changes files and responsive page
